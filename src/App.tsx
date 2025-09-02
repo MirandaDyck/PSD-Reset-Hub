@@ -19,8 +19,8 @@ export default function App() {
 
           {/* Breadcrumbs */}
           <nav className="crumbs" aria-label="Breadcrumb">
-            <a href="#">Accueil</a><span className="sep">></span>
-            <a href="#">Catalogue GC (alpha)</a><span className="sep">></span>
+            <a href="#">Accueil</a><span className="sep">&gt;</span>
+            <a href="#">Catalogue GC (alpha)</a><span className="sep">&gt;</span>
             <span aria-current="page">Réinitialisation de la Politique sur les services et le numérique</span>
           </nav>
         </div>
