@@ -15,8 +15,8 @@ export default function AppFr() {
             <a className="catalogue-link" href="http://gccatalogue.alpha.canada.ca/">
               Catalogue GC <span className="alpha">Alpha</span>
             </a>
-            <a href="/" className="text-sm text-blue-600 hover:text-blue-800 font-medium">
-              Français
+            <a href="../" className="text-sm text-blue-600 hover:text-blue-800 font-medium">
+              English
             </a>
           </div>
 

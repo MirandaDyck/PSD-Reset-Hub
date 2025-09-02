@@ -1,6 +1,14 @@
 import React from "react";
+import AppFr from "./App-fr";
 
 export default function App() {
+  // Check if we're on the French page
+  const isFrench = window.location.pathname.includes('/fr/');
+  
+  if (isFrench) {
+    return <AppFr />;
+  }
+
   return (
     <div>
       {/* Header */}
