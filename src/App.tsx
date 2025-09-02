@@ -9,19 +9,19 @@ export default function App() {
           <div className="topbar">
             <img
               className="gc-sig"
-              src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"
+              src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-fr.svg"
               alt="Government of Canada"
             />
             <a className="catalogue-link" href="http://gccatalogue.alpha.canada.ca/">
-              GC Catalogue <span className="alpha">Alpha</span>
+              Catalogue GC <span className="alpha">Alpha</span>
             </a>
           </div>
 
           {/* Breadcrumbs */}
           <nav className="crumbs" aria-label="Breadcrumb">
-            <a href="#">Home</a><span className="sep">&gt;</span>
-            <a href="#">GC Catalogue (alpha)</a><span className="sep">&gt;</span>
-            <span aria-current="page">Policy on Service and Digital reset</span>
+            <a href="#">Accueil</a><span className="sep">></span>
+            <a href="#">Catalogue GC (alpha)</a><span className="sep">></span>
+            <span aria-current="page">Réinitialisation de la Politique sur les services et le numérique</span>
           </nav>
         </div>
       </header>
@@ -30,11 +30,11 @@ export default function App() {
       <section className="hero">
         <div className="container hero-wrap">
           <div className="hero-text">
-            <h1 className="hero-title">Modernizing the Policy on Service and Digital</h1>
-            <p className="hero-tag">Resetting policy for a digital future</p>
+            <h1 className="hero-title">Modernisation de la Politique sur les services et le numérique</h1>
+            <p className="hero-tag">Réinitialiser la politique pour un avenir numérique</p>
           </div>
           {/* Top-right logo (icon only) */}
-          <img className="hero-logo" src="/logo-no-text.png" alt="PSD Reset Logo" />
+          <img className="hero-logo" src="/logo-no-text.png" alt="Logo de réinitialisation PSN" />
         </div>
       </section>
 
@@ -42,54 +42,55 @@ export default function App() {
       <main className="container main" id="main" role="main">
         {/* On this page card */}
         <nav className="onpage" aria-label="On this page">
-          <div className="label">On this page</div>
+          <div className="label">Sur cette page</div>
           <ul>
-            <li><a href="#why-change">Why Change is Needed</a></li>
-            <li><a href="#about-policy">About Policy on Service and Digital</a></li>
-            <li><a href="#stay-tuned">Stay Tuned</a></li>
+            <li><a href="#why-change">Pourquoi un changement est nécessaire</a></li>
+            <li><a href="#about-policy">À propos de la Politique sur les services et le numérique</a></li>
+            <li><a href="#stay-tuned">Restez à l'écoute</a></li>
           </ul>
         </nav>
 
         {/* Intro */}
         <section id="intro">
           <p>
-            The Office of the Chief Information Officer (OCIO) at Treasury Board of Canada Secretariat (TBS)
-            is modernizing the Policy on Service and Digital (PSD). This reset is a whole-of-government shift
-            in how services are designed, funded and delivered.
+            Le Bureau du dirigeant principal de l'information (DPI) du Secrétariat du Conseil du Trésor du Canada (SCT)
+            modernise la Politique sur les services et le numérique (PSN). Cette réinitialisation représente un changement
+            pangouvernemental dans la façon dont les services sont conçus, financés et livrés.
           </p>
         </section>
 
         {/* Why Change */}
         <section id="why-change">
-          <h2>Why Change is Needed</h2>
+          <h2>Pourquoi un changement est nécessaire</h2>
           <p>
-            Canadians expect government services that are simple, secure, and easy to use. But too often, outdated
-            systems and rules make services harder to deliver -- and harder for people to access.
+            Les Canadiens s'attendent à des services gouvernementaux simples, sécurisés et faciles à utiliser. Mais trop souvent, 
+            les systèmes et règles désuets rendent les services plus difficiles à livrer -- et plus difficiles d'accès pour les gens.
           </p>
-          <p>The reset of the PSD is about changing that. It will:</p>
+          <p>La réinitialisation de la PSN vise à changer cela. Elle permettra de :</p>
           <ul>
-            <li><strong>Build stronger digital foundations:</strong> Modern infrastructure connecting departments and services.</li>
-            <li><strong>Focus on outcomes, not process:</strong> Less red tape, more real results for Canadians.</li>
-            <li><strong>Lay a foundation for the future:</strong> Keep Canada in control of its data, technology, and talent.</li>
+            <li><strong>Construire des fondations numériques plus solides :</strong> Infrastructure moderne reliant les ministères et services.</li>
+            <li><strong>Se concentrer sur les résultats, pas sur les processus :</strong> Moins de bureaucratie, plus de vrais résultats pour les Canadiens.</li>
+            <li><strong>Jeter les bases de l'avenir :</strong> Garder le Canada en contrôle de ses données, sa technologie et ses talents.</li>
           </ul>
         </section>
 
         {/* About Policy */}
         <section id="about-policy">
-          <h2>About Policy on Service and Digital</h2>
+          <h2>À propos de la Politique sur les services et le numérique</h2>
           <p>
-            The Policy on Service and Digital (PSD) is the Government of Canada's main policy for how services are designed
-            and delivered. It sets expectations for departments on client experience and digital infrastructure so services
-            work better for people.
+            La Politique sur les services et le numérique (PSN) est la principale politique du gouvernement du Canada sur la façon 
+            dont les services sont conçus et livrés. Elle établit les attentes pour les ministères concernant l'expérience client 
+            et l'infrastructure numérique afin que les services fonctionnent mieux pour les gens.
           </p>
           <ul>
-            <li>Simple, secure, easy-to-use services for Canadians</li>
-            <li>Stronger digital foundations so systems work together</li>
-            <li>Better outcomes by reducing red tape</li>
-            <li>A future-ready policy protecting Canada's control over data and technology</li>
+            <li>Services simples, sécurisés et faciles à utiliser pour les Canadiens</li>
+            <li>Fondations numériques plus solides pour que les systèmes fonctionnent ensemble</li>
+            <li>De meilleurs résultats en réduisant la bureaucratie</li>
+            <li>Une politique prête pour l'avenir protégeant le contrôle du Canada sur ses données et sa technologie</li>
           </ul>
           <p>
-            The PSD reset is more than a policy update -- it is about creating a digital government that works for today and is ready for tomorrow.
+            La réinitialisation de la PSN est plus qu'une mise à jour de politique -- il s'agit de créer un gouvernement numérique 
+            qui fonctionne pour aujourd'hui et qui est prêt pour demain.
           </p>
         </section>
       </main>
@@ -98,28 +99,28 @@ export default function App() {
       <section id="stay-tuned" className="cta" aria-labelledby="stay-title">
         <div className="container cta-wrap">
           <div className="cta-copy">
-            <h2 id="stay-title" className="cta-title">Stay tuned</h2>
+            <h2 id="stay-title" className="cta-title">Restez à l'écoute</h2>
             <p className="cta-text">
-              Keep checking the page for updates. For more info, email{" "}
+              Continuez à vérifier la page pour les mises à jour. Pour plus d'informations, envoyez un courriel à{" "}
               <a href="mailto:PSDReset-PSNreinitialisee@tbs-sct.gc.ca">
                 PSDReset-PSNreinitialisee@tbs-sct.gc.ca
               </a>.
             </p>
           </div>
-          <img className="cta-logo" src="/image.png" alt="Policy on Service and Digital Reset logo" />
+          <img className="cta-logo" src="/image.png" alt="Logo de réinitialisation de la Politique sur les services et le numérique" />
         </div>
       </section>
 
       {/* Footer */}
       <footer className="container footer">
         <p style={{ margin: 0 }}>
-          The GC Catalogue is a collaboration between the Office of the Chief Information Officer of Canada and Service Canada.
-          Share your thoughts: <a href="mailto:servicedigital-servicesnumerique@tbs-sct.gc.ca">servicedigital-servicesnumerique@tbs-sct.gc.ca</a>
+          Le Catalogue GC est une collaboration entre le Bureau du dirigeant principal de l'information du Canada et Service Canada.
+          Partagez vos réflexions : <a href="mailto:servicedigital-servicesnumerique@tbs-sct.gc.ca">servicedigital-servicesnumerique@tbs-sct.gc.ca</a>
         </p>
         <img
           className="wmms"
           src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
-          alt="Symbol of the Government of Canada"
+          alt="Symbole du gouvernement du Canada"
         />
       </footer>
     </div>
