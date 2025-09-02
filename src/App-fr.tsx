@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function App() {
+export default function AppFr() {
   return (
     <div>
       {/* Header */}
@@ -10,13 +10,13 @@ export default function App() {
             <img
               className="gc-sig"
               src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-fr.svg"
-              alt="Government of Canada"
+              alt="Gouvernement du Canada"
             />
             <a className="catalogue-link" href="http://gccatalogue.alpha.canada.ca/">
               Catalogue GC <span className="alpha">Alpha</span>
             </a>
-            <a href="/fr/" className="text-sm text-blue-600 hover:text-blue-800 font-medium">
-              English
+            <a href="/" className="text-sm text-blue-600 hover:text-blue-800 font-medium">
+              Français
             </a>
           </div>
 
